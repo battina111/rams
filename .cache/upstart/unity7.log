@@ -1,0 +1,21 @@
+1497022411389	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+1497022411405	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+1497022411668	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1497022418245	addons.xpi	WARN	System add-on websensehelper@mozilla.org isn't compatible with the application.
+1497022418257	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIProvider.jsm:3017:15) JS Stack trace: this.XPIProvider.updateSystemAddons<@XPIProvider.jsm:3017:15
+ERROR 2017-06-09 08:38:41 unity.settings UnitySettings.cpp:318 Invalid monitor index: -1. Returning index 0 monitor instead.
+
+(process:8206): GLib-CRITICAL **: g_path_get_basename: assertion 'file_name != NULL' failed
+ERROR 2017-06-09 09:21:04 unity.settings UnitySettings.cpp:318 Invalid monitor index: -1. Returning index 0 monitor instead.
+ERROR 2017-06-09 09:24:55 unity.settings UnitySettings.cpp:318 Invalid monitor index: -1. Returning index 0 monitor instead.
+ERROR 2017-06-09 09:31:58 unity.settings UnitySettings.cpp:318 Invalid monitor index: -1. Returning index 0 monitor instead.
+
+(nautilus:9393): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+
+(nautilus:9393): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+
+(nautilus:9393): Gtk-CRITICAL **: gtk_icon_theme_get_for_screen: assertion 'GDK_IS_SCREEN (screen)' failed
+
+(nautilus:9393): GLib-GObject-WARNING **: invalid (NULL) pointer instance
+
+(nautilus:9393): GLib-GObject-CRITICAL **: g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed

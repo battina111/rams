@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Discrete Search</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="shortcut icon" href="/Assets/img/branding/discretesearch/favicon.ico" sizes="16x16 24x24 32x32 64x64" />
+    <link rel="image_src" href="/Assets/img/branding/discretesearch/icon-large.png" />
+    <link rel="icon" href="/Assets/img/branding/discretesearch/favicon.ico" />
+
+    <link href="/css/global?v=EBb9x1rhEDH6bZ_uFTj8g47FvN43HdNIKK55GO2yqdc1" rel="stylesheet"/>
+
+
+        <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/encibfeocgkgakjpdcpgjeclkcobmfpm" />
+        
+<link rel="stylesheet" href="/Assets/css/sftc.css" />
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
+<style>
+    .main-container-download { display: block; } 
+    .extension-directions-overlay .chrome-overlay-new { top: 510px !important; }
+    .legal-disclaimer a { text-decoration: underline !important; } 
+    .disclaimer a { text-decoration: underline; }
+</style>
+
+
+
+
+</head>
+<body>
+    
+
+
+
+<div class="header">
+    <div class="header-wrap">
+        <div class="header-left">
+            <div class="header-left-container">
+                <div class="header-site-name">DiscreteSearch.com</div>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <div class="header-right-callout">The Privacy Based Search Engine</div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="main">
+    <div class="main-container">
+
+        <div class="main-container-download">
+            <div class="main-container-header">
+                <p>Your Download Is Ready</p>
+            </div>
+            <div class="col-left">
+                <div class="left-container">
+                    <div id="steps">
+                        <ul>
+                            <li><b>Step 1:</b> Click Download</li>
+                            <li><b>Step 2:</b> Click the Add Button</li>
+                            <li><b>Step 3:</b> Search Privately</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+
+                <a class="button extension-modal-trigger" href="#" id="install-btn">
+                    <div class="download-button">
+                        <div class="download-button-text btn_text">
+                            <img src="/Assets/img/sftc/downloadgif_right.gif"> CLICK TO INSTALL
+                        </div>
+                    </div>
+                </a>
+
+                <div class="disclaimer">
+                    <div class="legal-disclaimer legal-fun text-center">
+                        By clicking the button to the left and installing the Discrete Search extension,<br>
+                        I accept and agree to abide by the
+                        <a href="https://www.discretesearch.com/legal/terms" target="_blank" style="text-decoration: underline;">EULA</a> and
+                        <a href="https://www.discretesearch.com/legal/privacy" target="_blank" style="text-decoration: underline;">Privacy Policy.</a>
+                    </div>
+                </div>
+
+                <div id="specs">
+                    <ul id="specs-list">
+                        <li>
+                            <b>Supported OS:</b> Windows 7/8, Vista, XP
+                        </li>
+                        <li>
+                            <b>License:</b> Free
+                        </li>
+                        <li>
+                            <b>Language:</b> English
+                        </li>
+                        <li>
+                            <b>Type:</b> Discrete Search 
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="clear"></div>
+            <div class="features">
+                <div class="feature-boxes">
+                    <div class="boxes">
+                        <img src="/Assets/img/list-logo-1-gray.png" class="feature-icon" />
+                            <p>Intercept &amp; Redirect</p>
+                    </div>
+                    <div class="boxes"><img src="/Assets/img/list-logo-2-gray.png" class="feature-icon" /> <p>Encryption &amp; Evasion</p></div>
+                    <div class="boxes"><img src="/Assets/img/list-logo-3-gray.png" class="feature-icon" /> <p>Expiring Browser History</p></div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer container">
+
+    <div class="row container-box">
+        <div class="col-md-12">
+
+            <div class="row">
+                <div class="col-md-10">
+                        <h2>Intercept &amp; Redirect</h2>
+                        <h3>
+                            Searches that may be tracked (such as Google, Bing and some search engines powered by
+                            these companies) are stopped from processing and redirected to our privacy-enhanced search engine.
+                        </h3>
+                </div>
+                <div class="col-md-2">
+                    <img src="/Assets/img/list-logo-1_blue.png" class="img-responsive" style="margin-top: 20px;"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div style="margin-bottom: 20px;">&nbsp;</div>
+                <div class="col-md-5">
+                    <a class="download-button download-link" href="#">Install Now</a>
+                </div>
+                <div class="col-md-7">
+                    <div class="col-xs-12 accept-text">
+                        By clicking the button to the left and installing the Discrete Search extension,<br>
+                        I accept and agree to abide by the
+                        <a href="https://www.discretesearch.com/legal/terms" target="_blank" style="text-decoration: underline;">EULA</a> and
+                        <a href="https://www.discretesearch.com/legal/privacy" target="_blank" style="text-decoration: underline;">Privacy Policy.</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row container-box">
+        <div class="col-md-12">
+
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="/Assets/img/list-logo-2_blue.png" class="img-responsive" style="margin-top: 20px;"/>
+                </div>
+                <div class="col-md-10">
+                    <h2>Encryption &amp; Evasion</h2>
+                    <h3>
+                        DiscreteSearch.com forces an advanced SSL encryption with perfect forward secrecy to protect your
+                        searches from more sophisticated attacks that may occur through your network.
+                    </h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div style="margin-bottom: 20px;">&nbsp;</div>
+                <div class="col-md-7">
+                    <div class="col-xs-12 text-right accept-text">
+                        By clicking the button to the right and installing the Discrete Search extension,<br>
+                        I accept and agree to abide by the
+                        <a href="https://www.discretesearch.com/legal/terms" target="_blank" style="text-decoration: underline;">EULA</a> and
+                        <a href="https://www.discretesearch.com/legal/privacy" target="_blank" style="text-decoration: underline;">Privacy Policy.</a>
+                    </div>
+                </div>
+                <div class="col-md-5 text-right">
+                    <a class="download-button download-link" href="javascript:void(0);">Install Now</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row container-box">
+        <div class="col-md-12">
+
+            <div class="row">
+                <div class="col-md-10">
+                    <h2>Expiring Browser History</h2>
+                    <h3>
+                        No one can snoop on your browser history! After 15 minutes of inactivity your encrypted search term can no longer be viewed.
+                    </h3>
+                </div>
+                <div class="col-md-2">
+                    <img src="/Assets/img/list-logo-3_blue.png" class="img-responsive" style="margin-top: 20px;"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div style="margin-bottom: 20px;">&nbsp;</div>
+                <div class="col-md-5">
+                    <a class="download-button download-link" href="#">Install Now</a>
+                </div>
+                <div class="col-md-7">
+                    <div class="col-xs-12 text-right accept-text">
+                        By clicking the button to the left and installing the Discrete Search extension,<br>
+                        I accept and agree to abide by the
+                        <a href="https://www.discretesearch.com/legal/terms" target="_blank" style="text-decoration: underline;">EULA</a> and
+                        <a href="https://www.discretesearch.com/legal/privacy" target="_blank" style="text-decoration: underline;">Privacy Policy.</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="/scripts/global?v=uqEPBT9-a7UsuLrk9_4K1e8kXfUWxtLCDyRLTKXJ3e01"></script>
+
+
+
+
+<div class="extension-overlay">
+
+    <div class="firefox-overlay">
+        <div class="arrow-up" style="position: absolute; height: 103px; left: 37px; top: -103px;">
+            <img src="/Assets/img/arrow-up.png" />
+        </div>
+
+        <h1>
+            Click <span>"Allow"</span> followed by <span>"Install"</span> To Continue
+        </h1>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    
+        $("#exit-button").click(function () {
+        window.location = 'http://';
+    });
+
+    $("#exit-link").click(function () {
+        window.location = 'http://';
+        });
+    
+        if (bowser.chrome) {
+        if (window.menubar && window.menubar.visible == false) {
+            $('body').append('<div id="padsOverlay"></div>');
+        }
+
+        $(document).ready(function () {
+            $('#padsOverlay').on('click', function () {
+                window.open(window.location.href);
+                setTimeout(function () {
+                    window.close();
+                }, 200);
+            });
+        });
+    }
+
+    if (bowser.firefox) {
+        var img = document.createElement('img');
+
+        img.addEventListener("load", function (e) {
+            $('.btn, .legal').hide(); //hide download button
+            $('#install-btn').parent().html('<h2 class="text-center">Already Installed!</h2>');
+            $('.download-link').parent().append('<h2 class="text-center">Already Installed!</h2>');
+
+        });
+
+        img.setAttribute("src", "chrome://discretesearch/content/skin/images/ping.png");
+    }
+</script>
+
+
+<script>
+    $(document).ready(function () {
+        $('.add-engine').on('click', function (e) {
+            e.preventDefault();
+            window.external.AddSearchProvider('https://www.discretesearch.com/update/installsearch?encToken=5d207df72e74dbd5099b1ca1f7f86b832a59d4ae79961979cd21c0c392fa536728a1807a3c85f6f74da02756189d41e3d58814f910ff0aac7f53b676bd50a584');
+        });
+
+        if (bowser.msie && !bowser.chrome) {
+            $('#modal-close, .ext-modal-overlay').click(function (e) {
+                e.preventDefault();
+                $('.ext-modal-overlay').hide();
+                $('.ext-modal').fadeOut('fast');
+            });
+
+            $("#install-btn > div > span.buttonText").html("Install Our Extension");
+            $("#install-btn > span#add_to").html("IE");
+            $("span.browserName").html("IE");
+            $('#ext-badge').addClass('msie');
+        }
+
+        if (bowser.firefox) {
+            $("#install-btn > div > span.buttonText").html('Add to Firefox');
+            $("#install-btn > span#add_to").html("Firefox");
+            $("span.browserName").html("Firefox");
+        }
+
+        if (bowser.chrome) {
+            $("span.browserName").html("Chrome");
+        }
+
+        if (bowser.safari) {
+            $("#install-btn > div > span.buttonText").html('Add to Safari');
+            $("#install-btn > span#add_to").html("Safari");
+            $("span.browserName").html("Safari");
+        }
+
+        $(".button-text").html($('#install-btn').text());
+    });
+
+    $(document).ready(function () {
+
+        $('.chrome-overlay').hide();
+        $('.firefox-overlay').hide();
+        $('.safari-overlay').hide();
+        $('#ie-wrap').hide();
+
+        (function extensionInstaller() {
+            var e = this;
+            e.isChrome = bowser.chrome;
+            e.isFirefox = bowser.firefox;
+            e.isSafari = bowser.safari;
+
+            e.showOverlay = function () {
+                $('.chrome-overlay div.arrow-up').empty();
+                $('.chrome-overlay div.arrow-up').append('<img src="/static/images/dl_click?encTk=YTE4NWJlZmEtNzczNS00ZWMwLTk3YmEtMzEzNjM5YzQ2NWYzCjIwMTcwNjA5CnNpLWV4dC1mZi1kcy1zZnQKc2Z0" />');
+                $('.extension-overlay').fadeIn(500, function () {
+                    $(".extension-overlay > div > div.arrow-up > img").effect('bounce', {
+                        distance: 12,
+                        direction: 'down',
+                        times: 2
+                    }, 2000);
+                });
+
+                if (e.isChrome) {
+                    $('.chrome-overlay').show();
+                } else if (e.isFirefox) {
+                    $('.firefox-overlay').show();
+                } else if (bowser.msie) {
+                    $('#ie-wrap').show();
+                } else if (e.isSafari) {
+                    $('.safari-overlay').show();
+                }
+            };
+
+            e.showTermsModal = function () {
+                $("#acceptTermsModal").modal('show');
+            };
+
+            e.toggleModalContent = function (event) {
+                if (event == "termsAccepted") {
+                    $('.acceptTerms').hide();
+                    $('.modal-footer').hide();
+                    $('.termsAccepted').show();
+                    e.fireInstall();
+                }
+            };
+
+            e.hideOverlay = function () {
+                $('.extension-overlay').fadeOut(200);
+            };
+
+                
+                e.showCancelModal = function () {
+                    $('.cancel-modal').fadeIn(500);
+                };
+                
+                            
+                e.hideCancelModal = function () {
+                    $('.cancel-modal').fadeOut(500);
+                }
+                
+
+            ////////////
+            // EVENTS //
+            ////////////
+            e.hideModalEvent = (function () {
+                $('.extension-overlay').on('click', e.hideOverlay);
+            })();
+
+            e.buttonClickEvent = (function () {
+                $('#install-btn, .js-retry-install, .download-link').on('click', function (event) {
+                    e.fireInstall();
+                });
+
+                    
+                    $('.js-cancel-confirm').on('click', function () {
+                        $('.cancel-overlay').hide();
+                        e.cancelClicksEvents;
+
+                    });
+
+                    $('.js-retry-install').on('click', function () {
+                        $('.cancel-overlay').hide();
+                        $('.button').click();
+                    });
+                    
+            })();
+
+            e.fireInstall = function () {
+                if (bowser.msie) {
+                    $('.ext-modal-overlay').fadeIn(300);
+                    $('.ext-modal').fadeIn(800);
+                }
+                else if (e.isFirefox) {
+                    e.showOverlay();
+                } else if (e.isChrome) {
+                    
+                }
+
+                if (!bowser.msie && e.isChrome) {
+                        
+                            try{
+                                chrome.webstore.install('https://chrome.google.com/webstore/detail/encibfeocgkgakjpdcpgjeclkcobmfpm'
+                                                            , ChromeExtensionInstallSuccess
+                                                            , ChromeExtensionInstallFail)
+                            }
+                            catch (err) {
+                                ChromeExtensionInstallFail();
+                            }
+                        
+                }
+                if (e.isFirefox) {
+                    var params = {
+                        "Discrete Search": {
+                            URL: "https://www.discretesearch.com/Content/branding/discretesearch/extensions/Redirect.xpi",
+                            IconURL: "https://www.discretesearch.com/Content/branding/discretesearch/img/icon-large.png",
+                            toString: function () { return "https://www.discretesearch.com/Content/branding/discretesearch/extensions/Redirect.xpi"; }
+                        }
+                    };
+                    InstallTrigger.install(params);
+                    checkFirefoxInstall();
+                }
+                if (e.isSafari) {
+                    e.showOverlay();
+                    safariInstallCallback();
+                }
+            };
+
+                
+            e.cancelClicksEvents = (function () {
+                var cancelModal = $('.cancel-confirm');
+
+                cancelModal.find('#yes').on('click', function (event) {
+                    event.preventDefault();
+                    e.hideCancelModal();
+                    
+
+                });
+
+                cancelModal.find('#no').on('click', function (event) {
+                    event.preventDefault();
+                    e.hideCancelModal();
+                    e.showOverlay();
+                });
+            })();
+            
+
+        })();
+    });
+
+
+
+    function safariInstallCallback() {
+    
+    }
+
+    var ffLoop = { active: true, attempts: 0, maxAttempts: 1000 };
+
+    function checkFirefoxInstall() {
+        setTimeout(function () {
+            var img = document.createElement('img');
+
+            img.addEventListener("load", function (e) {
+                ffLoop.active = false; //stop looping
+                $('.extension-overlay').hide(); //hide overlay
+                $('.btn').hide(); //hide download button
+                $('#install-btn, .download-link').parent().html('<h2 class="text-center text-success">Thank you for installing!</h2>');
+
+                    
+                fireConversion("firefox");
+                
+
+
+            });
+
+            img.addEventListener("error", function (e) {
+                ffLoop.attempts++;
+                if (ffLoop.attempts != ffLoop.maxAttempts)
+                    checkFirefoxInstall();
+            });
+
+            img.setAttribute("src", "chrome://discretesearch/content/skin/images/ping.png");
+
+        }, 200);
+    }
+
+    function ChromeExtensionInstallSuccess() {
+
+        $('.extension-overlay').hide(); //hide overlay
+        $('.btn').hide(); //hide download button
+        $('#install-btn').parent().html('<h2 class="text-center text-success">Thank you for installing!</h2>');
+
+
+            fireConversion("chrome");
+
+    };
+
+    function ChromeExtensionInstallFail() {
+    };
+
+
+    function fireConversion(browser) {
+
+            appendFrame("https://f7boi.voluumtrk2.com/postback?cid=wDMIPE5V99ORNHV5H3MVV87J&txid=a185befa-7735-4ec0-97ba-313639c465f3");
+
+    }
+
+    function appendImgPixel(src) {
+        var img = document.createElement('img');
+        img.src = src;
+        document.body.appendChild(img);
+    }
+
+    function appendFrame(src) {
+        var iframe = document.createElement('iframe');
+        iframe.src = src;
+        iframe.scrolling = "no";
+        iframe.frameborder = "0";
+        iframe.width = 1;
+        iframe.height = 1;
+
+        document.body.appendChild(iframe);
+    }
+</script>
+
+    
+    <script>
+        $(document).ready(function () {
+            // Button text scrolling
+            var button = $('.btn_text');
+            setInterval(function () {
+                if (!button.hasClass('alt-text')) {
+                    button.html('<img src="/assets/img/sftc/downloadgif_right.gif"> FREE DOWNLOAD');
+                    button.addClass('alt-text');
+                } else {
+                    button.html('<img src="/assets/img/sftc/downloadgif_right.gif"> CLICK TO INSTALL');
+                    button.removeClass('alt-text');
+                }
+            }, 1800);
+        });
+    </script>
+
+</body>
+</html>îtñLæp      Y:ÎoY:Î}=ÙmE       ¤    :https://ext.discretesearch.com/sft/redirect?implementation_id=sft&referrerUrl=&cid=wDMIPE5V99ORNHV5H3MVV87J&subid2=320900b4-cca9-45b5-8d24-9427b8d79e4e&vlmtrk=true necko:classified 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAARyMIIEbjCCA1agAwIBAgIQD/XfseaNabObaiR6cGMJ/TANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRUwEwYDVQQLEwxTZXJ2ZXIgQ0EgMUIxDzANBgNVBAMTBkFtYXpvbjAeFw0xNjA5MDkwMDAwMDBaFw0xNzEwMDkxMjAwMDBaMB0xGzAZBgNVBAMTEmRpc2NyZXRlc2VhcmNoLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIvdFhILH36Amz0z+DcKZT0nKkn8vOfEsK9cGd4Q+OQIXPPfZQkteiyyGc+ygQnR/Kle9AwOmSLd4UJTG6YG3+hPz7M9q2T1siCSl3I4DYoRubRp6YrdDDqC2Fq1/7ep6d3tctB5FBYsc+oYV2CXeG67yC+T4Bh3dMgObIMF8Z4Mc+1KqzUaVzGHcfnfStYyGNnBPhVTD6c30LZv4p0om4uz1T68VH6YKIOlXUipC23z64PlGmLJPsqVK6ugSRypyxxDVSYIJxX89dNDDKQDzNbRfb2Dp1bZQqj6BBbka/2I5RcdM3JzruV2Bj1SPUi0KFAiWW21phokj/cDVUsmBl8CAwEAAaOCAX8wggF7MB8GA1UdIwQYMBaAFFmkZgZSoHuVkjyjlAcnlnRb+T3QMB0GA1UdDgQWBBQWNuWkeMKvLQtUOQxQ4cUFLzEpmTAzBgNVHREELDAqghJkaXNjcmV0ZXNlYXJjaC5jb22CFCouZGlzY3JldGVzZWFyY2guY29tMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwOwYDVR0fBDQwMjAwoC6gLIYqaHR0cDovL2NybC5zY2ExYi5hbWF6b250cnVzdC5jb20vc2NhMWIuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMHUGCCsGAQUFBwEBBGkwZzAtBggrBgEFBQcwAYYhaHR0cDovL29jc3Auc2NhMWIuYW1hem9udHJ1c3QuY29tMDYGCCsGAQUFBzAChipodHRwOi8vY3J0LnNjYTFiLmFtYXpvbnRydXN0LmNvbS9zY2ExYi5jcnQwDAYDVR0TAQH/BAIwADANBgkqhkiG9w0BAQsFAAOCAQEAE8c6KREW25ARvKZY8LdzM9yQZuaOp0SDbe/9mRIPZ3yNQPns98JXDo2Rull71Vfw6zd8M8LFCIAr8m0QbjQkTBk8oeBhGanLfQllnhwVPPdE1PHLveoxD5NbSK6E+OSJ3mWDMe1r7Mo5x+nB9ZenPOLFPB95k5E5hzGwuuTndZTJ3pmPrLQU2ADyqIKThvyOliOoG6NFVNND/hu/lTbA0MWK52iaCi7Jf4ffjfaMavcZBgAJKknDeX4dNFkCPGZvCI9jHqB0/+CCw6iBqJ0IcUZt3VvHcCoc91mxykq6pK455LWDYJyp0pDP9X7SxfxKvi437+Fs9CO6umAl+fSzg8AvAAMAAAAAAQEAAA== request-method GET response-head HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Date: Fri, 09 Jun 2017 17:33:30 GMT
+Server: Microsoft-IIS/7.5
+Strict-Transport-Security: max-age=15768000
+X-AspNet-Version: 4.0.30319
+X-AspNetMvc-Version: 5.2
+Content-Length: 20805
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 15 predictor::https://ext.discretesearch.com/css/global?v=EBb9x1rhEDH6bZ_uFTj8g47FvN43HdNIKK55GO2yqdc1 1,1,1497026159,0 predictor::https://ext.discretesearch.com/Assets/css/sftc.css 1,1,1497026159,0 predictor::https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css 1,1,1497026159,0 predictor::https://ext.discretesearch.com/Assets/img/sftc/downloadgif_right.gif 1,1,1497026159,0 predictor::https://ext.discretesearch.com/Assets/img/list-logo-1-gray.png 1,1,1497026159,0 predictor::https://ext.discretesearch.com/Assets/img/list-logo-2-gray.png 1,1,1497026159,0 predictor::https://ext.discretesearch.com/Assets/img/list-logo-3-gray.png 1,1,1497026159,0 predictor::https://ext.discretesearch.com/Assets/img/list-logo-1_blue.png 1,1,1497026159,0 predictor::https://ext.discretesearch.com/Assets/img/list-logo-2_blue.png 1,1,1497026159,0 predictor::https://ext.discretesearch.com/Assets/img/list-logo-3_blue.png 1,1,1497026159,0 predictor::https://ext.discretesearch.com/scripts/global?v=uqEPBT9-a7UsuLrk9_4K1e8kXfUWxtLCDyRLTKXJ3e01 1,1,1497026159,0 predictor::https://ext.discretesearch.com/Assets/img/arrow-up.png 1,1,1497026159,0 predictor::https://ext.discretesearch.com/Assets/img/sftc/SpeedTest_chrome.png 1,1,1497026159,0 predictor::https://ext.discretesearch.com/Assets/img/sftc/footer-shadow.png 1,1,1497026159,0 predictor::https://ext.discretesearch.com/assets/img/sftc/downloadgif_right.gif 1,1,1497026159,0   QE

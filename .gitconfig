@@ -1,0 +1,7 @@
+[user]
+	name = battina111
+	email = ramya.battina@gmail.com
+[core]
+	editor = vim
+[user "email"]
+	com = ramya.battina@gmail.com

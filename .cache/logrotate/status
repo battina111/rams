@@ -1,0 +1,13 @@
+logrotate state -- version 2
+"/home/ramya/.cache/upstart/upstart-event-bridge.log" 2017-6-9-8:10:15
+"/home/ramya/.cache/upstart/window-stack-bridge.log" 2017-6-9-8:10:15
+"/home/ramya/.cache/upstart/hud.log" 2017-6-9-8:10:15
+"/home/ramya/.cache/upstart/dbus.log" 2017-6-9-8:10:15
+"/home/ramya/.cache/upstart/indicator-sound.log" 2017-6-9-8:10:15
+"/home/ramya/.cache/upstart/update-notifier-release.log" 2017-6-9-8:0:0
+"/home/ramya/.cache/upstart/ssh-agent.log" 2017-6-9-8:10:15
+"/home/ramya/.cache/upstart/unity7.log" 2017-6-9-8:10:15
+"/home/ramya/.cache/upstart/gnome-keyring-ssh.log" 2017-6-9-8:10:15
+"/home/ramya/.cache/upstart/unity-settings-daemon.log" 2017-6-9-8:10:15
+"/home/ramya/.cache/upstart/gpg-agent.log" 2017-6-9-8:10:15
+"/home/ramya/.cache/upstart/unity-panel-service.log" 2017-6-9-8:10:15
